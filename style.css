@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --primary-color: #443429;
+    --light-green: #13b865;
+    --off-white: #9CA3AF;
+    --light-yellow: #f8b75d;
+  }
+  .container {
+    padding: 0rem 1rem;
+  }
+  .navigation {
+    display: block;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+  }
+  .navigation .link {
+    color: white;
+  }
+  .nav-pills {
+    text-align: right;
+  }
+  .nav-brand,
+  .link-active {
+    font-weight: bold;
+  }
+  .list-non-bullet {
+    list-style: none;
+  }
+  .list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  .link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  h1,
+  p {
+    color: var(--light-green);
+    text-align: center;
+    padding: 2rem;
+  }
+  label {
+    display: block;
+    color: var(--light-green);
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+  }
+  input {
+    display: block;
+    margin-left: 43%;
+  }
+  input[type="radio"] {
+    display: inline;
+    margin: 0;
+  }
+  .angle {
+    padding: 0.5rem;
+  }
+  .radioDiv {
+    text-align: center;
+    padding: 2rem;
+  }
+  .btn-container {
+    margin-top: 2rem;
+  
+    
+  }
+  button {
+    display: inline;
+    border-style: none;
+    background-color: var(--light-yellow);
+    color: var(--primary-color);
+    font-weight: bolder;
+    margin-left: 39rem;
+    padding: 0.5rem;
+    border-radius: 10%; 
+    text-align: center;
+    
+  }
+  #output,
+  #output-hypo,
+  #output-area,
+  #output-quiz {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--light-green);
+    padding: 0.5rem;
+  }
+  .quiz-container {
+    color: var(--light-green);
+  }

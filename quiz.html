@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-inline">
+          <a href="/" class="link">Is Triangle</a>
+        </li>
+        <li class="list-inline">
+          <a href="/quiz.html" class="link link-active">Quiz</a>
+        </li>
+        <li class="list-inline">
+          <a href="/hypotenuse.html" class="link">Hypotenuse</a>
+        </li>
+        <li class="list-inline">
+          <a href="/area.html" class="link">Area</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <p>Each correct answer scores 1 point!</p>
+    <form class="quiz-container">
+      <label for="ques1"
+        >What is the third angle for the triangle where angle1 = 45° and angle2
+        = 45°?</label>
+      <div class="radioDiv">
+      <input type="radio" id="ques1option1" name="ques1" value="45°"> 45° </input>
+      <input type="radio" id="ques1option2" name="ques1" value="60°"> 60° </input>
+      <input type="radio" id="ques1option3" name="ques1" value="90°"> 90° </input>
+    </div>
+    <label for="ques2"
+    >If a triangle has an angle of 90 degrees, what is it called?</label>
+  <div class="radioDiv">
+  <input type="radio" id="ques2option1" name="ques2" value="obtuse"> obtuse </input>
+  <input type="radio" id="ques2option2" name="ques2" value="acute"> acute </input>
+  <input type="radio" id="ques2option3" name="ques2" value="right angled"> right angled </input>
+</div>
+
+<label for="ques3"
+>
+In right triangle, the side opposite to right angle is called?</label>
+<div class="radioDiv">
+<input type="radio" id="ques3option1" name="ques3" value="altitude"> altitude </input>
+<input type="radio" id="ques3option2" name="ques3" value="hypotenuse"> hypotenuse </input>
+<input type="radio" id="ques3option3" name="ques3" value="angle bisector"> angle bisector </input>
+</div>
+
+<label for="ques4"
+>Which triangle has two equal sides?</label>
+<div class="radioDiv">
+<input type="radio" id="ques4option1" name="ques4" value="obtuse"> obtuse </input>
+<input type="radio" id="ques4option2" name="ques4" value="isosceles"> isosceles </input>
+<input type="radio" id="ques4option3" name="ques4" value="acute"> acute </input>
+</div>
+
+<label for="ques5"
+>Which ancient Greek philosopher studied triangles?</label>
+<div class="radioDiv">
+<input type="radio" id="ques5option1" name="ques5" value="plato"> plato </input>
+<input type="radio" id="ques5option2" name="ques5" value="socrates"> socrates </input>
+<input type="radio" id="ques5option3" name="ques5" value="pythagoras"> pythagoras </input>
+</div>
+<div class="btn-container"> 
+ <button type="button" id="btn-submit">Submit Form</button>
+</div>
+    </form>
+    <div id="output-quiz"></div>
+  </body>
+  <script src="quiz.js" type="text/javascript"></script>
+</html>
