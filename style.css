@@ -4,10 +4,10 @@
     box-sizing: border-box;
   }
   :root {
-    --primary-color: #443429;
+    --primary-color:#6EE7B7;
     --light-green: #13b865;
     --off-white: #9CA3AF;
-    --light-yellow: #f8b75d;
+    --light-yellow: #a8957a;
   }
   .container {
     padding: 0rem 1rem;
